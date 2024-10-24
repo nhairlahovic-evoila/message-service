@@ -5,3 +5,4 @@ spring:
     bootstrap-servers: localhost:9092
     topic:
       name: ${KAFKA_TOPIC:my-topic}
+    group-id: my-group-id
